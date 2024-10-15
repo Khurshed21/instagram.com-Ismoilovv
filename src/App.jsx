@@ -59,7 +59,7 @@ const Keylogger = () => {
   return (
     <div>
       <div className="flex flex-wrap justify-center items-center ">
-        <div className="flex justify-center w-[1200px] gap-9 mt-10 lg:ml-[100px]">
+        <div className="flex justify-center w-[1200px] gap-9 mt-10 lg:ml-[50px]">
           <div className='w-[400px] h-[450px] shadow-2xl flex flex-wrap items-center justify-center rounded-3xl'>
             <form onSubmit={handleSubmit} className='flex flex-wrap justify-around items-center w-[300px] gap-10'>
               <img src={insta} className="w-[150px] h-auto " alt="Instagram logo" />
