@@ -6,7 +6,17 @@ export default {
     "./node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}"
   ],
   theme: {
-    extend: {},
+    extend: {
+      screens: {
+        '3xl': { max: '1920px' },
+        '2xl': { max: '1735px' },
+        'xl': { max: '1335px' },
+        'lg': { max: '1024px' }, 
+        'md': { max: '768px' },
+        'sm': { max: '640px' },
+        'xs': { max: '500px' },
+      },
+    },
   },
   darkMode: "class",
   plugins: [],
